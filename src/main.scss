@@ -15,10 +15,8 @@ body {
 }
 
 p {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
+  text-align: center;
+  margin-top: 0%;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -27,15 +25,24 @@ p {
   margin-top: 3px;
 }
 
-.explanation {
-  margin-top: 0px;
-}
-
 .text {
   order: 2;
   padding-top: 40px;
   width: 440px;
   font-weight: bold;
+}
+
+#button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 7px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  &:hover {
+    background-color: #d3386a;
+    color: rgba(255, 255, 255, 1);
+  }
 }
 
 .board {
