@@ -2,6 +2,7 @@
 ==========
 
 This is a clone of [2048](http://gabrielecirulli.github.io/2048/) implemented using React. It's running live [here](http://eliasdearaujo.com).
+Thank you for the open source project and special thanks to Romain Cousin for the motion graphics.
 
 The game logic is implemented in board.js. It was much cleaner at first, but in order to get movement animations, a lot of state needs to be saved for each of the tiles on the board.
 
